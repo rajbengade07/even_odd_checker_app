@@ -10,15 +10,7 @@ function check()
 		msg.innerHTML="";
 		num.focus();
 		return;
-	}
-	if(num.value==="0")
-	{
-		alert("Plz enter an value greater than 0");
-		msg.innerHTML="";
-		num.focus();
-		return;
-	}
-					
+	}				
 	let n=parseInt(num.value);
 	if(n%2==0)
 	{
